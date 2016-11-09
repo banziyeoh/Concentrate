@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl">
+    <Button
+        android:onClick="unlockScreen"
+        android:layout_width="20dp"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:id="@+id/unlock"/>
+
+    <TextView
+        android:text="There is no way to unlock the phone until the timer stopped,keep going :D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/unlock"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>
